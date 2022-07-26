@@ -1,0 +1,12 @@
+.multi-select {
+  max-width: 300px;
+}
+
+.multi-select__items {
+  padding: 0;
+  margin: 0;
+}
+
+.multi-select__items li {
+  list-style: none;
+}
