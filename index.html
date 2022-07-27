@@ -9,13 +9,17 @@
   </head>
   <body>
     <div class="multi-select">
-      <input type="text" class="multi-select__input" />
-      <ul class="multi-select__items">
-        <li><input value="A" type="checkbox" />A</li>
-        <li><input value="B" type="checkbox" />B</li>
-        <li><input value="C" type="checkbox" />C</li>
-        <li><input value="D" type="checkbox" />D</li>
-        <li><input value="E" type="checkbox" />E</li>
+      <input
+        type="text"
+        class="multi-select__input"
+        placeholder="Nhấp để chọn"
+      />
+      <ul class="multi-select__items hide">
+        <li><input value="A" type="checkbox" /><span>A</span></li>
+        <li><input value="B" type="checkbox" /><span>B</span></li>
+        <li><input value="C" type="checkbox" /><span>C</span></li>
+        <li><input value="D" type="checkbox" /><span>D</span></li>
+        <li><input value="E" type="checkbox" /><span>E</span></li>
       </ul>
     </div>
     <script src="./script.js"></script>
